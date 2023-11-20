@@ -25,7 +25,7 @@
 #    define DRIVER_LED_TOTAL (DRIVER_1_LED_TOTAL + DRIVER_2_LED_TOTAL)
 
 /* Set to infinit, which is use in USB mode by default */
-#    define RGB_DISABLE_TIMEOUT RGB_DISABLE_TIME_INFINITE
+#define RGB_DISABLE_TIMEOUT RGB_DISABLE_TIME_INFINITE
 /* Allow shutdown of led driver to save power */
 #    define RGB_MATRIX_DRIVER_SHUTDOWN_ENABLE
 /* Turn off backlight on low brightness to save power */
